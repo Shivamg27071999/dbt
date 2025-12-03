@@ -1,0 +1,14 @@
+my_project:
+  target: prod
+  outputs:
+    prod:
+      type: snowflake
+      account: tfosyhi-xv67652
+      user: jmsjbb2
+      password: Shivam@2607
+      role: TRANSFORMER
+      warehouse: LEARN
+      database: ORDERS
+      schema: ORDERS
+      threads: 4
+      client_session_keep_alive: False
